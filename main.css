@@ -1,0 +1,165 @@
+*{
+	margin:0px;
+	list-style-type:none;
+	font-family:sans-serif;
+	font-size:15px;
+	color:white;	
+}
+p{
+	margin:7px;
+}
+
+img{
+	width:99%;
+	border-radius:8px;
+	padding:none;
+}
+
+#guycar{
+	width:82%;
+	margin:9%;
+	border-radius:1%;
+}
+
+body{
+	
+	background-image: url('pics/background2.png');
+	background-size:100%;
+	background-position:center;
+
+}
+
+h1,h2,h3,h4,h5{
+	text-align:center;
+}
+
+#container{
+	background:;
+	width:1200px;
+	margin:0px auto;
+}
+
+#banner{
+	background:blue;
+	width:1200px;
+	border-radius:5px;
+	text-align:center;
+	background-image:linear-gradient(to top, #04507b, #00a2ff);
+}
+
+#toolbar{
+	text-align:center;
+	word-spacing:;
+	font-size:22px;
+	background:black;
+	width:1200px;
+	border-radius:5px;
+	padding-bottom:4px;
+	margin-top:20px;
+	position:;
+	top:0px;
+	
+}
+
+#left-side-bar{
+	background:black;
+	opacity:0.7;
+	width:200px;
+	float:left;
+	border-radius:5px;
+}
+
+
+#main-part{
+	background:black;
+	width:800px;
+	float:left;
+	border-radius:5px;
+	text-align:center;
+	
+}
+
+#right-side-bar{
+	background:black;
+	opacity:0.7;
+	width:200px;
+	float:right;
+	border-radius:5px;
+}
+
+.clear{
+	clear:both;
+}
+
+#foot{
+	background:;
+	opacity:0.7;
+	width:1200px;
+	border-radius:10px;
+	position:;
+	bottom:0px;
+	text-align:center;
+	background-image:linear-gradient(to top, #FD0033, #48EBFD);
+}
+
+@media screen and (max-width:1199px){
+	#container{
+		width:100%;
+	}
+	#banner{
+		width:100%;
+	}
+	#toolbar{
+		width:100%;
+	}
+	#left-side-bar{
+		width:16%;
+	}
+	#main-part{
+		width:68%;
+	}
+	#right-side-bar{
+		width:16%;
+	}
+	#foot{
+		width:100%;
+	}
+	}
+	
+	#toolbar ul li{
+		display:inline-block;
+	}
+	
+	#left-side-bar ul li{
+		margin-left:-42px;
+		margin-bottom:4px;
+	}
+	a{
+		color:#0268DC;
+		text-decoration:none;
+		padding-left:10px;
+		padding-right:10px;
+	}
+	
+	a:hover{
+		color:white;
+		text-decoration:underline;
+		
+	}
+	
+	a:active{
+		color:red;
+	}
+	
+	a:visited{
+		color:;
+	}
+	
+	#test{
+		opacity:0.7;
+	}
+	#test:hover{
+		opacity:1;
+		transition: 1.5s opacity;
+	}
+	
